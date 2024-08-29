@@ -1,0 +1,1 @@
+<img class="noselect" data-position=<?= $index ?> data-index=<?= $index ?> src='<?= $book['cover_image'] ?>' alt='<?= $book['title'] ?>' />

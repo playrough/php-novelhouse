@@ -1,0 +1,321 @@
+.header {
+	font-size: 16px;
+	height: 60px;
+	background-color: var(--secondary-color);
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer {
+	background-color: var(--primary-color);
+}
+
+.top-footer {
+	padding: 48px 0;
+}
+
+.footer-row {
+	display: flex;
+	justify-content: space-between;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.footer-col {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.footer .logo {
+	margin-bottom: 6px;
+}
+
+.footer .logo-link {
+	color: var(--quaternary-color);
+}
+
+.footer-description {
+	line-height: 1.5;
+	color: var(--quaternary-color);
+}
+
+.footer-heading {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 800;
+	color: var(--quaternary-color);
+}
+
+.footer-info a {
+	display: block;
+	line-height: 1.5;
+	color: var(--quaternary-color);
+}
+
+.footer-info a + a {
+	margin-top: 12px;
+}
+
+.connect-icon {
+	display: inline-block;
+	margin-right: 18px;
+}
+
+.bottom-footer {
+	text-align: center;
+	padding: 20px 0;
+	background-color: var(--dark-color-50);
+	color: var(--quaternary-color);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.authentication,
+.notification {
+	background-color: var(--quaternary-color);
+}
+
+.authentication .picture {
+	border-radius: 4px;
+}
+
+.auth-form {
+	width: 300px;
+}
+
+.option-link {
+	margin-left: 10px;
+	color: var(--primary-color);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+}
+
+.sidebar {
+	width: 200px;
+	background-color: var(--primary-color);
+	height: 100%;
+	transition: all 0.2s;
+}
+
+.sidebar .logo {
+	height: 60px;
+	background-color: var(--dark-color-50);
+	color: var(--quaternary-color);
+	text-align: center;
+}
+
+.sidebar .logo-link {
+	color: var(--quaternary-color);
+	font-size: 30px;
+	line-height: 60px;
+	transition: all 0.3s;
+}
+
+.sidebar .sidebar-menu {
+	height: calc(100vh - 60px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.sidebar .menu-list {
+	margin-top: 15px;
+}
+
+.sidebar .sidebar-menu-item.title {
+	color: var(--quaternary-color);
+	font-weight: 500;
+	padding: 15px 20px;
+	text-wrap: nowrap;
+}
+
+.sidebar .sidebar-menu-link {
+	display: flex;
+	flex-wrap: nowrap;
+
+	padding: 15px 20px;
+	width: 100%;
+
+	color: var(--quaternary-color);
+	transition: all 0.3s;
+}
+
+.sidebar .icon {
+	display: inline-block;
+	margin-right: 8px;
+	transition: all 0.3s;
+	flex-shrink: 0;
+}
+
+.sidebar .sidebar-menu-item:hover .sidebar-menu-link {
+	color: var(--accent-color);
+}
+
+.sidebar .sidebar-menu-item:hover .icon {
+	stroke: var(--accent-color);
+}
+
+.sidebar .logout {
+	background-color: var(--dark-color-50);
+}
+
+.sidebar .logout-item-link {
+	display: flex;
+	flex-wrap: nowrap;
+
+	padding: 15px 20px;
+	width: 100%;
+	color: var(--accent-color);
+}
+
+.sidebar .logout .icon {
+	display: inline-block;
+	margin-right: 8px;
+	stroke: var(--accent-color);
+	flex-shrink: 0;
+}
+
+.sidebar .link-title {
+	vertical-align: top;
+	text-wrap: nowrap;
+	flex-shrink: 1;
+}
+
+.sidebar.closed {
+	width: 80px;
+}
+
+.sidebar.closed .logo-link {
+	font-size: 18px;
+}
+
+.sidebar.closed .sidebar-menu-item.title {
+	opacity: 0;
+}
+
+.sidebar.closed .sidebar-menu-link {
+	text-align: center;
+	justify-content: center;
+}
+
+.sidebar.closed .link-title {
+	display: none;
+}
+
+.sidebar.closed .icon {
+	margin-right: 0;
+}
+
+.sidebar.closed .logout .icon {
+	margin-right: 0;
+	justify-content: center;
+}
+
+.sidebar.closed .logout-item-link {
+	justify-content: center;
+}
+
+.sidebar-icon {
+	cursor: pointer;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.main {
+	flex: 1;
+}
+
+.main .header {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.main .user-name {
+	line-height: 60px;
+}
+
+.main .auth-username {
+	color: var(--primary-color);
+}
+
+.content {
+	height: calc(100vh - 60px);
+	padding: 30px;
+	overflow: auto;
+	background-color: var(--quaternary-color);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.book-cover {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.book-title {
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 8px;
+}
+
+.book-detail {
+	margin-bottom: 12px;
+}
+
+.detail-icon {
+	display: inline-block;
+}
+
+.book-detail span {
+	line-height: 24px;
+	margin-right: 24px;
+	margin-left: 2px;
+}
+
+.book-author {
+	line-height: 24px;
+	margin-bottom: 12px;
+	font-size: 16px;
+}
+
+.author {
+	color: var(--accent-color);
+}
+
+.book-summary {
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.thumbnail {
+	width: 100%;
+	border-radius: 4px;
+}

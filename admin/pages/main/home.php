@@ -1,0 +1,1 @@
+<p style="font-size: 16px;">Đây là trang quản lý. Hãy chọn chức năng ở menu bên trái.</h6>
